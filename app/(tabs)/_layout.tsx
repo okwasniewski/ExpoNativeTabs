@@ -23,9 +23,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: () => ({
-            uri: 'https://www.svgrepo.com/show/22031/home-icon-silhouette.svg',
-          }),
+          tabBarIcon: () => require('../../assets/images/home-icon-silhouette.svg') 
         }}
       />
       <Tabs.Screen
