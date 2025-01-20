@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { TabBarIcon } from '@/components/navigation/TabBarIcon';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 import { withLayoutContext } from "expo-router";
-import { createNativeBottomTabNavigator } from "react-native-bottom-tabs/react-navigation";
+import { createNativeBottomTabNavigator } from "@bottom-tabs/react-navigation";
 
 export const Tabs = withLayoutContext(
   createNativeBottomTabNavigator().Navigator

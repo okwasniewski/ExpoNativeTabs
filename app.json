@@ -30,12 +30,12 @@
     },
     "plugins": [
       "expo-router",
-      "react-native-bottom-tabs",
+      ["react-native-edge-to-edge", { "android": { "parentTheme": "Material3.Dynamic" } }],
       [
         "expo-build-properties",
         {
           "ios": {
-            "useFrameworks": "static",
+            "useFrameworks": "static"
           }
         }
       ]
